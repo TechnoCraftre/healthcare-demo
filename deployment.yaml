@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: healthcare
-        image: technocraftre/demohealth1.0
+        image: technocraftre/healthdemo1.0
         ports:
         - containerPort: 8082
 
