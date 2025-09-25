@@ -1,10 +1,9 @@
 
  Healthcare Project – Resilient Deployment & Monitoring
 
-In healthcare, consistency and oversight are critical. This project demonstrates a fully automated system where the application is deployed safely, and the system’s health is always visible. Manual setup or accidental downtime is completely avoided through automation.
+In healthcare, consistency and oversight are critical. This project demonstrates a fully automated system where the application is deployed safely, and the system’s health is always visible. Manual setup and accidental downtime is completely avoided through automation.
 
-🚀 How It Operates
-Infrastructure
+🚀 How the Infrastructure Operates
 
 --> Terraform provisions three servers:
 
