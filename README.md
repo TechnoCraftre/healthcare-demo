@@ -6,41 +6,41 @@ In healthcare, consistency and oversight are critical. This project demonstrates
 🚀 How It Operates
 Infrastructure
 
-Terraform provisions three servers:
+--> Terraform provisions three servers:
 
-Master Node – orchestrates automation and manages deployments.
+--> Master Node – orchestrates automation and manages deployments.
 
-Worker Node – runs the healthcare application.
+--> Worker Node – runs the healthcare application.
 
-Monitoring Node – gathers metrics and tracks system performance.
+--> Monitoring Node – gathers metrics and tracks system performance.
 
-Setup & Deployment
+⚙️ Setup & Deployment
 
-Ansible installs and configures all essential software on the Master node.
+--> Ansible installs and configures all essential software on the Master node.
 
-Developers push updates to Git.
+--> Developers push updates to Git.
 
-Jenkins automates the build process.
+--> Jenkins automates the build process.
 
-Docker packages the application into containers.
+--> Docker packages the application into containers.
 
-Kubernetes deploys and runs the app on the Worker node.
+--> Kubernetes deploys and runs the app on the Worker node.
 
-Observability
+📊 Observability
 
-Prometheus collects real-time system metrics.
+--> Prometheus collects real-time system metrics.
 
-Grafana visualizes performance and operational health.
+--> Grafana visualizes performance and operational health.
 
 🔄 Workflow
 
-Terraform → Creates Master, Worker, and Monitoring servers.
+--> Terraform → Creates Master, Worker, and Monitoring servers.
 
-Ansible → Configures the Master node with all necessary tools.
+--> Ansible → Configures the Master node with all necessary tools.
 
-Jenkins → Builds the application from Git commits.
+--> Jenkins → Builds the application from Git commits.
 
-Docker → Packages the application into containers.
+--> Docker → Packages the application into containers.
 
 Kubernetes → Deploys the app on the Worker node.
 
