@@ -42,9 +42,9 @@ Infrastructure
 
 --> Docker → Packages the application into containers.
 
-Kubernetes → Deploys the app on the Worker node.
+--> Kubernetes → Deploys the app on the Worker node.
 
-Prometheus + Grafana → Monitor system metrics and health.
+--> Prometheus + Grafana → Monitor system metrics and health.
 
 🌐 Application Access
 
